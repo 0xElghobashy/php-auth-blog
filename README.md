@@ -93,8 +93,8 @@ $dBName = 'phpproject01';
 ## Getting Started
 
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/0xElghobashy/php-auth-blog.git
+cd php-auth-blog/
 # Import the database schema above, then:
 php -S localhost:8000
 ```
