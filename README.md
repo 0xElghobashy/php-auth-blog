@@ -1,6 +1,14 @@
 # PHP Blogs — Session-Based Auth & Blog Starter
 
+**Repository:** [github.com/0xElghobashy/php-auth-blog](https://github.com/0xElghobashy/php-auth-blog)
+
 A lightweight PHP + MySQL project implementing session-based user authentication (signup, login, logout) on top of a simple blog homepage layout. Built as a hands-on project to practice core PHP web development: procedural includes, sessions, form handling, and secure database access with prepared statements.
+
+## Screenshots
+
+| Signup | Login |
+|---|---|
+| ![Signup page](screenshots/signup.png) | ![Login page](screenshots/login.png) |
 
 ## Features
 
@@ -48,8 +56,11 @@ A lightweight PHP + MySQL project implementing session-based user authentication
 │   └── style.css                 # Site styling
 ├── js/
 │   └── main.js                   # Front-end scripting
-└── img/
-    └── logo.jpg                  # Site logo
+├── img/
+│   └── logo.jpg                  # Site logo
+└── screenshots/
+    ├── signup.png                # Signup page preview
+    └── login.png                 # Login page preview
 ```
 
 ## Database Setup
