@@ -4,6 +4,17 @@
 
 A lightweight PHP + MySQL project implementing session-based user authentication (signup, login, logout) on top of a simple blog homepage layout. Built as a hands-on project to practice core PHP web development: procedural includes, sessions, form handling, and secure database access with prepared statements.
 
+## Getting Started
+
+```bash
+git clone https://github.com/0xElghobashy/php-auth-blog.git
+cd php-auth-blog/
+# Import the database schema above, then:
+php -S localhost:8000
+```
+
+Open `http://localhost:8000` in your browser.
+
 ## Screenshots
 
 | Signup | Login |
@@ -90,16 +101,7 @@ $dBPassword = '';
 $dBName = 'phpproject01';
 ```
 
-## Getting Started
 
-```bash
-git clone https://github.com/0xElghobashy/php-auth-blog.git
-cd php-auth-blog/
-# Import the database schema above, then:
-php -S localhost:8000
-```
-
-Open `http://localhost:8000` in your browser.
 
 ## License
 
