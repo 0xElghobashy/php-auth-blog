@@ -101,16 +101,6 @@ php -S localhost:8000
 
 Open `http://localhost:8000` in your browser.
 
-## Known Issues / Hardening Notes
-
-This project prioritizes learning core PHP concepts; a few things to fix before treating it as production-ready:
-
-- **Credentials in source** — `includes/dbh.inc.php` hardcodes DB credentials. Move these to environment variables or a git-ignored config file.
-- **Unescaped output** — `index.php` prints `$_SESSION['userUid']` without `htmlspecialchars()`. Currently constrained by the signup username regex, but output should still be escaped defensively.
-- **No CSRF protection** — the login/signup forms have no CSRF token.
-- **Leftover debug code** — `includes/signup.inc.php` has a stray `echo 'hello world';` after the redirect logic.
-- **No rate limiting** — login attempts aren't throttled, so brute-forcing isn't mitigated at the application level.
-
 ## License
 
 Licensed under the MIT License — see [LICENSE](LICENSE).
